@@ -1,0 +1,40 @@
+LEVEL				MINIMUM MOVES	SOLVED		SOLUTION
+
+AJAW	01	-->			7			Yes			
+AJAW	20	-->			10			Yes
+
+KUK		03	-->			29			Yes			DRUDRULLURDLLDLDLDLRDLDRRRDRR
+KUK		04	-->			17			Yes			LLDLLRRRDRUUULRUL
+KUK		05	-->			20			Yes			DDRRRUUUUDDLDDUULLDD (DDLRRUUULULDRUURDDRRLLDD but 24 moves)
+KUK		06	-->			20			Yes			RDLRRDDDLRRDDDLUUUUD
+KUK		11	-->			21			Yes			LLLDRRRRULDLDRUUURLLR
+KUK		24	-->			22			Yes			DRUDRRULLURRUDRRLLLDDD
+KUK		25	--> 		17			Yes			
+KUK		29	-->			27						...DDDD
+./Cryptica.exe input "KUK_29" moves 27 final DDDD	(elaborated about less than 1/4 of strings)
+
+KUK		30	-->			25			No			...LU
+./Cryptica.exe input "KUK_30" moves 25 final LU	(elaborated about less than 1/4 of strings)
+
+
+CHAN	01	-->			20			Yes			RURDRDLLLLDLLULDRDLU
+CHAN	02	-->			29			No			...LUL
+CHAN	03	-->			27			No				(No UUULD...LLRURDRL)
+CHAN	04	-->			15			Yes			DLDULLDURDDDLLR
+CHAN	06	-->			20			Yes			DDRRLDLLLRUURRLLUULR
+CHAN	07	-->			30			No			...UUUURRR
+CHAN	08	-->			20			Yes			LDLRURRLULUDRRRLURDD
+CAHN	10	-->			15			Yes			LRDDLLRDRULURRU
+CHAN	11	-->			20			Yes			DDUURRRRRDDULLLLLLDR
+CHAN	12	-->			22						No RR...RR
+												No RRRR...
+												No ...RRRR
+CHAN	13	-->			19			Yes			LRRDRRDULLLDLLLRDUL
+CHAN	15	-->			17			Yes			LLDRRURUULLDRURLD
+CHAN	16	-->			23			Yes			LUDLURRRRULLLLDLURRRRRD
+CHAN	17	-->			20			Yes			LUUDLUDLLURDRUULLUUU
+CHAN	18	-->			25			No			
+CHAN	23	-->			16			Yes			ULDLDRRRRULLUDLD
+CHAN	27	-->			20			Yes			LDDLDLUUUURRRDLULLDD
+CHAN	29	-->			14			Yes			DLDLUURRDDLLLU
+CHAN	30	-->			32						LD...UULLLLURRRDDDD ?
